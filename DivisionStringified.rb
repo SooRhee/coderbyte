@@ -11,7 +11,10 @@ def DivisionStringified(num1,num2)
       if i%3 == 0
           result = arr.insert(i+1, ".")
           i+=1
+      else
+        i+=1
       end
+     
     end
     return result.join('')
   end
@@ -21,6 +24,4 @@ end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-DivisionStringified(STDIN.gets)           
-
-
+DivisionStringified(STDIN.gets)    
